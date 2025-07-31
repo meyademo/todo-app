@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>Todo App</h1>
+      <h1>My Todo App</h1>
       <TodoForm onAdd={addTodo} />
       <TodoList todos={todos} onToggle={toggleTodo} onDelete={deleteTodo} />
     </div>
