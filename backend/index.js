@@ -1,7 +1,7 @@
 // backend/index.js
 import express, { json } from 'express';
 import cors from 'cors';
-import todosRouter from './routes/todos';
+import todosRouter from './routes/todos.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
