@@ -1,6 +1,6 @@
 // backend/routes/todos.js
-const express = require('express');
-const router = express.Router();
+import { Router } from 'express';
+const router = Router();
 
 let todos = [];
 let id = 1;
@@ -35,4 +35,4 @@ router.delete('/:id', (req, res) => {
   res.status(204).end();
 });
 
-module.exports = router;
+export default router;
